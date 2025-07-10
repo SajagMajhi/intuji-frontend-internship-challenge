@@ -5,14 +5,6 @@
   font-style: normal;
 }
 
-
-.material-symbols-outlined{
-    position: relative;
-    top: 5px;
-    font-size: 18px !important;
-    margin-left: 12px;
-}
-
 .Navigation{
     display: flex;
     align-items: center;
@@ -24,10 +16,10 @@
 .Group18 {
     display: flex;
     align-items: center;
+    gap: 237px;
 }   
 
 .Group17{
-    margin-left: 237px;
     display: flex;
     gap:11px;
 }
@@ -40,8 +32,6 @@
 .menu_drop_btn{
     border: none;
     background:transparent;
-    margin: 0 auto;
-    height: 30px;
     font-size: 14px;
     font-family: 'Manrope';
 }
@@ -49,8 +39,6 @@
 .menu_btn{
     border: none;
     background:transparent;
-    margin-top: 3px;
-    height: 30px;
     font-size: 14px;
     font-family: 'Manrope';
 }
