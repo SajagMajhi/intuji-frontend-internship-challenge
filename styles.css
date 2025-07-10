@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 .material-symbols-outlined{
     position: relative;
     top: 5px;
@@ -5,7 +13,26 @@
     margin-left: 12px;
 }
 
-.dropdown-container{
+.Navigation{
+    display: flex;
+    align-items: center;
+    gap: 313px;
+    margin-left: 121px;
+    margin-top: 38px;
+}
+
+.Group18 {
+    display: flex;
+    align-items: center;
+}   
+
+.Group17{
+    margin-left: 237px;
+    display: flex;
+    gap:11px;
+}
+
+.Group136{
     display: flex;
     gap:11px;
 }
@@ -15,6 +42,8 @@
     background:transparent;
     margin: 0 auto;
     height: 30px;
+    font-size: 14px;
+    font-family: 'Manrope';
 }
 
 .menu_btn{
@@ -22,6 +51,8 @@
     background:transparent;
     margin-top: 3px;
     height: 30px;
+    font-size: 14px;
+    font-family: 'Manrope';
 }
 
 .dropdown a{
@@ -32,6 +63,7 @@
 
 .dropdown .content{
     display: none;
+    position: absolute;
 }
 
 .dropdown:hover .content{
