@@ -1,0 +1,39 @@
+.material-symbols-outlined{
+    position: relative;
+    top: 5px;
+    font-size: 18px !important;
+    margin-left: 12px;
+}
+
+.dropdown-container{
+    display: flex;
+    gap:11px;
+}
+
+.menu_drop_btn{
+    border: none;
+    background:transparent;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.menu_btn{
+    border: none;
+    background:transparent;
+    margin-top: 3px;
+    height: 30px;
+}
+
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown .content{
+    display: none;
+}
+
+.dropdown:hover .content{
+    display: block;
+}

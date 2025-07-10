@@ -4,8 +4,39 @@
     <meta charset="UTF-8"/> <!-- This signifies the characters are encoded in UTF-8 so copying text content from webpage works-->
     <meta name="viewport" content="width=device-width, intial-scale=1.0"/> <!-- fixes the scaling of webpage in phone, laptop display -->
     <title>Home page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/> <!-- font awesome-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" /> <!--Google fonts-->
 </head>
 <body>
 <h1> Hello World Again for testing version control</h1>
+
+    <div class="dropdown-container">
+        <div class="dropdown"> <!--id can also be used for CSS but cannot be generalized-->
+            <button class="menu_drop_btn">Product<span class="material-symbols-outlined">stat_minus_1</span></button>
+                <div class="content">
+                    <a href="">Option 1</a>
+                    <a href="">Option 2</a>
+                    <a href="">Option 3</a>
+                </div>
+        </div>
+
+        <div class="dropdown"> <!--id can also be used for CSS but cannot be generalized-->
+            <button class="menu_drop_btn">Template<span class="material-symbols-outlined">stat_minus_1</span></button>
+                <div class="content">
+                    <a href="">White</a>
+                    <a href="">Dark</a>
+                </div>
+        </div>
+        
+        <div>
+            <button class="menu_btn">Blog</button>
+        </div>
+        <div>
+            <button class="menu_btn">Pricing</button>
+        </div>
+       
+    </div> 
+
 </body>
 </html>
