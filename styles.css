@@ -31,6 +31,22 @@ body {
   font-style: normal;
 }
 
+.value_props{
+    display: flex;
+    position: absolute;
+    top: 1451px;
+    left: 121px;
+    gap: 31px;
+}
+
+.rectangle147{
+    background-color: white;
+    border: 1px solid #DBE4E9;
+    border-radius: 20px;
+    width: 380px;
+    height: 382px;
+}
+
 .section_heading{
     position: absolute;
     margin-top: 1170px;
