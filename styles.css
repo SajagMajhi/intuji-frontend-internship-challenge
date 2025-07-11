@@ -38,6 +38,14 @@ body {
   font-style: normal;
 }
 
+.section_contents2{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 121px;
+    gap: 103px;
+}
+
 .section_contents{
     position: relative;
     display: flex;
@@ -81,8 +89,12 @@ body {
     height: 177px;
 }
 
-.testimonial{
-
+.Rectangle_150{
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    width: 479px;
+    height: 152px;
+    margin-top: 57px;
 }
 
 .Group313{
