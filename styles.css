@@ -38,6 +38,14 @@ body {
   font-style: normal;
 }
 
+.features{
+    width: 1440px;
+    height: 833px;
+    margin-top: 96px;
+    border: 1px solid transparent;
+    background-image: url("vectors/Rectangle152.svg");
+}
+
 .section_contents2{
     position: relative;
     display: flex;
@@ -68,6 +76,14 @@ body {
     border-radius: 20px;
     width: 380px;
     height: 382px;
+}
+
+.rectangle_147{
+    background-color: white;
+    border: 1px solid #ABC8D2;
+    border-radius: 10px;
+    width: 380px;
+    height: 338px;
 }
 
 .section_heading{
