@@ -31,6 +31,21 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Manrope_bold';
+  src: url('fonts/Manrope-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.section_contents{
+    position: relative;
+    display: flex;
+    margin-top: 1952px;
+    margin-left: 124px;
+    gap: 73px;
+}
+
 .value_props{
     display: flex;
     position: absolute;
@@ -108,6 +123,16 @@ body {
   display: flex;
 }
 
+.ellipse39 {
+  width: 24px; /* diameter = 2 * radius */
+  height: 24px;
+  border-radius: 50%;
+  background-color: #FDBC64; /* or any color you like */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 .rectangle88 {
   width: 60px; /* diameter = 2 * radius */
   height: 60px;
@@ -151,6 +176,11 @@ body {
 .Group158 {
     display: flex;
     gap: 8px;
+}
+
+.Group_158 {
+    display: flex;
+    gap: 11px;
 }
 
 
