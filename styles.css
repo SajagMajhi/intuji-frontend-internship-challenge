@@ -24,6 +24,44 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Manrope_semi_bold';
+  src: url('fonts/Manrope-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.section_heading{
+    position: absolute;
+    margin-top: 1170px;
+    margin-left: 119px;
+    display: flex;
+    flex-direction: row;
+    width: 1171px;
+    height: 210px;
+    gap: 123px;
+
+}
+
+.Rectangle150{
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 20px;
+    width: 402px;
+    height: 177px;
+}
+
+.testimonial{
+
+}
+
+.Group313{
+    width: 646px;
+    height: 209px;
+    gap: 19px;
+    display: flex;
+    flex-direction: column; 
+}
+
 .header {
     left: 0px;
     position:relative;
