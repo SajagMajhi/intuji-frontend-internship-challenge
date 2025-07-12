@@ -38,6 +38,86 @@ body {
   font-style: normal;
 }
 
+#accordion li label{
+    cursor: pointer;
+    font-size:22px; 
+    font-family: 'Manrope_extra_bold'; 
+    line-height: 22px; 
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+#accordion{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+    padding-left: 0;
+}
+
+#accordion label + input[type="radio"]{
+    display: none;
+}
+
+#accordion .accordion_content{
+    overflow: hidden;
+    transition: max-height 0.5s;
+    max-height: 0px;
+}
+
+#accordion label + input[type="radio"]:checked +.accordion_content{
+    max-height: 156px;
+}
+
+
+#accordion li label{
+    cursor: pointer;
+    font-size:22px; 
+    font-family: 'Manrope_extra_bold'; 
+    line-height: 22px; 
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+#accordion li p{
+    font-size:16px; 
+    font-family: 'Manrope'; 
+    line-height: 31px; 
+    letter-spacing: -0.32px;
+    padding-left: 25px;
+    margin-top: -2px;
+}
+
+.accordion_item{
+    width: 751px; 
+    border-radius: 10px; 
+    border: 1px solid #CFCFCF;
+}
+
+
+.direct_mail_btn{
+    width: 337px;
+    height: 76px;
+    margin-top: 93px;
+    background-color: #FF7F5C;
+    color: white;
+    font-size: 16px;
+    font-family: 'Manrope_semi_bold';
+    line-height: 31px;
+    letter-spacing: -0.32px;
+    border: none;
+}
+
+.FAQ{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 119px;
+}
+
 .recent_blogs{
     position: relative;
     margin-top: 147px;
