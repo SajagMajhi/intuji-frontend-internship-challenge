@@ -38,6 +38,16 @@ body {
   font-style: normal;
 }
 
+.recent_blogs{
+    position: relative;
+    margin-top: 147px;
+    margin-left: 119px;
+}
+
+.row{
+    position: relative;
+    margin-top: 72px;
+}
 .Testimonials{
     position: relative;
     margin-top: 150px;
