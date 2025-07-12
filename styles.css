@@ -98,6 +98,42 @@ body {
     border: 1px solid #CFCFCF;
 }
 
+.CTA{
+    position: relative;
+    width: 1200px;
+    height: 438px;
+    margin-top: 150px;
+    padding-top: 108px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    background-image: url("vectors/CTA.svg");
+    background-repeat: no-repeat;
+}
+
+.CTA label{
+    font-size: 56px;
+    font-family: 'Manrope_extra_bold';
+    line-height: 61px;
+    letter-spacing: -1.68px;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.CTA button{
+    width: 223px;
+    height: 67px;
+    border-radius: 10px;
+    background-color: #FF7F5C;
+    color: white;
+    font-size: 18px;
+    font-family: 'Manrope_bold';
+    line-height: 30px;
+    letter-spacing: -0.36px;
+    border: none;
+}
 
 .direct_mail_btn{
     width: 337px;
