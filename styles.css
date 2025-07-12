@@ -1,7 +1,22 @@
 body {
   margin: 0;
   padding: 0;
+  zoom: 1.05;
 }
+
+/*
+html, body {
+  margin: 0; padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  transform-origin: top left;
+  transform: scale(1.05);
+  width: calc(100vw / 1.05); 
+}
+*/
 
 @font-face {
   font-family: 'Gilroy';
@@ -110,6 +125,7 @@ body {
     gap: 41px;
     background-image: url("vectors/CTA.svg");
     background-repeat: no-repeat;
+    box-sizing: border-box;
 }
 
 .CTA label{
@@ -132,6 +148,115 @@ body {
     font-family: 'Manrope_bold';
     line-height: 30px;
     letter-spacing: -0.36px;
+    border: none;
+}
+
+.footer{
+    width: 1202px;
+    height: 198px;
+    margin-left: 0px;
+    display: flex;
+    gap: 76px;
+}
+
+.OG_footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 150px;
+    width: 1202px;
+    height: 325px;
+    margin-bottom: 58px;
+}
+
+#copy_right{
+    font-size: 16px;
+    font-family: 'Manrope';
+    line-height: 28px;
+    letter-spacing: -0.32px;
+    color: rgba(24, 20, 51, 1)
+}
+
+#footer_label{
+    font-size: 21px;
+    font-family: 'Gilroy';
+    line-height: 28px;
+    letter-spacing: -0.42px;
+}
+
+#footer_p {
+    margin-top: 18px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-family: 'Manrope';
+    line-height: 28px;
+    letter-spacing: -0.32px;
+    color: #757095;
+}
+
+#footer_p2 {
+    font-size: 16px;
+    font-family: 'Manrope';
+    line-height: 28px;
+    letter-spacing: -0.32px;
+    color: rgba(24, 20, 51, 0.5);
+}
+
+.Nav_wrap{
+    display: flex;
+}
+
+.Nav_wrap label{
+    font-size: 21px;
+    font-family: 'Manrope_bold';
+    line-height: 24px;
+}
+
+.Nav_item button{
+    font-size: 16px;
+    font-family: 'Manrope';
+    line-height: 24px;
+    padding: 0px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+}
+
+.Nav_item{
+    display:flex; 
+    flex-direction: column; 
+}
+
+#txt_box{
+    background-color: #EEEEFF;
+    width: 240px;
+    height: 52px;
+    font-size: 16px;
+    font-family: 'Manrope';
+    line-height: 26px;
+    letter-spacing: -0.32px;
+    padding-left: 15px;
+    border: none;
+    color: rgba(24, 20, 51, 0.8);
+}
+
+#txt_box::placeholder{
+    color: rgba(24, 20, 51, 0.2);
+    font-size: 16px;
+    font-family: 'Manrope';
+    line-height: 26px;
+    letter-spacing: -0.32px;
+}
+
+#btn_subs{
+    background-color: #3734A9;
+    font-size: 16px;
+    font-family: 'Manrope';
+    line-height: 26px;
+    letter-spacing: -0.32px;
+    color: white;
+    width: 149px;
+    height: 52px;
     border: none;
 }
 
@@ -395,6 +520,7 @@ body {
     display: block;
     text-decoration: none;
     color: black;
+    padding-left: 160px;
 }
 
 .dropdown .contents{
