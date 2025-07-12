@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/> <!-- font awesome-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" /> <!--Google fonts-->
+    <script src="scripts.js" defer></script>
 </head>
 <body>
 
@@ -19,9 +20,9 @@
                         <div class="dropdown"> <!--id can also be used for CSS but cannot be generalized-->
                             <button class="menu_drop_btn">Product<img src="vectors/arrow-down.svg" style="margin-left: 12px;"/></button>
                                 <div class="contents">
-                                    <a href="">Option 1</a>
-                                    <a href="">Option 2</a>
-                                    <a href="">Option 3</a>
+                                    <a href="#">Option 1</a>
+                                    <a href="#">Option 2</a>
+                                    <a href="#">Option 3</a>
                                 </div>
                         </div>
 
@@ -34,39 +35,16 @@
                         </div>
                         
                         <div>
-                            <button class="menu_btn">Blog</button>
+                            <button class="menu_btn" id="btn_blog">Blog</button>
                         </div>
                         <div>
-                            <button class="menu_btn">Pricing</button>
+                            <button class="menu_btn" id="btn_pricing">Pricing</button>
                         </div>
                     </div>
 
                     <div class="Group17">
-
-                            <button style="
-                                border:none; 
-                                background:transparent;
-                                width:94px; 
-                                height:52px;
-                                font-family: 'Manrope';
-                                font-size: 14px;
-                                text-align: left;"
-                                >
-                                Sign In
-                            </button>
-                        
-                            <button style="
-                                border:none; 
-                                background: #4F46BA; 
-                                color: white; 
-                                width:137px; 
-                                height:52px;
-                                font-family: 'Manrope';
-                                font-size: 14px;"
-                            >
-                                Start Free
-                            </button>
-                        
+                        <button id="btn_sign_in">Sign In</button>
+                        <button id="btn_start_free">Start Free</button>
                     </div>
                 </div>
             </div>
@@ -88,14 +66,14 @@
                     <div style="display: flex; gap: 50px; margin-top: 50px;">
                         <div class="Group177">
                             <div class="Group153">
-                            <button class="Button">Get Started</button>
+                            <button id="btn_get_started">Get Started</button>
                             </div>
                         </div>
                         <div class="Group176">
-                                <div class="rectangle88">
+                                <div class="rectangle88" id="see_btn">
                                         <img src="vectors/polygon2.svg" style="width:25px; height:25px;"/>
                                 </div>
-                                <label style="font-size:17px; font-family: 'Manrope'; color: #3734A9;">See How It Works</label>
+                                <label id="btn_see">See How It Works</label>
                         </div>
                     </div>
 
@@ -402,6 +380,7 @@
         </div>
 
         <div class="features">
+            <img src="vectors/61.svg" style="position: absolute; left:-7px; top:3898px;">
             <div class="Group317">
                 <div style="display:flex; flex-direction: column; gap: 37px; margin-top: 146px; margin-left: 119px;">  <!--text-->
                     <div style="width:830px; height: 66px;">
@@ -487,6 +466,7 @@
         </div>
 
         <div class="Testimonials">
+            <img src="vectors/Fill_1.svg" style="position: absolute; left:1048px; right:4277px;">
             <div style="display: flex; flex-direction: column; gap: 37px;"> <!--text container-->
                 <div style="width: 426px; height: 66px;">
                 <label style="font-size: 71px; font-family: 'Manrope_extra_bold'; line-height: 66px; letter-spacing: -2.13px;">
@@ -666,6 +646,7 @@
         </div>
 
         <div class="FAQ">
+            <img src="vectors/29.svg" style="position: absolute; left: 1222.15px; top: 0px">
             <div style="width: 544px; height: 152px;"> <!--big text-->
                 <label style="font-family: 'Manrope_extra_bold'; font-size: 71px; line-height: 76px; letter-spacing: -2.13px;">
                     Frequently <br> asked questions
@@ -778,7 +759,12 @@
                 <div>
                     <label id="footer_label">AR SHAKIR</label>
                     <p id="footer_p">Finance helps companies <br>manage payments easily.</p>
-                    <img src="vectors/social_media.svg" style="margin-top: 31px;">
+                    <div class="icons">
+                        <img src="vectors/linkedin.svg" >
+                        <img src="vectors/messenger.svg" >
+                        <img src="vectors/twitter.svg" >
+                        <img src="vectors/twoo.svg" >
+                    </div>
                 </div>
 
                 <div class="Nav_wrap">
